@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sampleapplicationone.saubhattacharya.MainActivity">
+    <item
+        android:id="@+id/action_show_only_number"
+        android:orderInCategory="96"
+        android:title="@string/action_show_only_number"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_show_only_email"
+        android:orderInCategory="97"
+        android:title="@string/action_show_only_email"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_show_hidden_contacts"
+        android:orderInCategory="98"
+        android:title="@string/action_show_hidden_contacts"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="99"
+        android:title="@string/action_refresh"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+</menu>
